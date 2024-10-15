@@ -6,6 +6,8 @@ import usersRouter from "./api/users/index.js";
 import defaultErrHandler from "./errHandler/index.js";
 import "./db/index.js";
 
+
+
 const app = express();
 const port = process.env.PORT;
 
